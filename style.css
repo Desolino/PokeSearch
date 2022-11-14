@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 480px;
+    width: 90%;
+}
+.hidden{
+    display: none;
+}
+form{
+    display: flex;
+}
+input[type="search"]{
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 0;
+    border-right: 0;
+    padding: 16px;
+    width: 100%;
+    font-size: 16px;
+}
+input[type="submit"]{
+    font-weight: bold;
+    font-family: inherit;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    padding: 0 16px;
+}
